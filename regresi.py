@@ -64,7 +64,7 @@ if st.sidebar.checkbox('Koefisien(b) ?'):
 
 
 st.sidebar.subheader('X')
-x_input = st.sidebar.number_input('Masukan jumlah sertifikat')
+x_input = st.sidebar.number_input('Masukan jumlah Penghasilan')
 
 Y_hasil = konstanta_a + (koefisien_b*float(x_input))
 st.sidebar.subheader('Y')
